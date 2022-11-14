@@ -1,0 +1,274 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topPage{
+    background-color: #181848;
+ 
+   
+}
+.topTitle{
+    color:#f0a818;
+    font-size: 70px;
+    margin: 0 15px ;
+    padding-bottom: 0%;
+      
+}
+
+.topSubtitle{
+    color: #dfe7f0e1;
+    font-size: 23px;
+   text-align: justify;
+   font-weight: bold;
+   padding: 5px 10px;
+}
+
+.sectionCard{
+background:#f0a818;
+padding: 10px;
+
+}
+.titleCard{
+    text-align: center;
+    font-size: 40px;
+}
+.textCard{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color:black;
+    
+}
+.containerCard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+
+.dadosCard {
+    padding: 10px;
+    margin:20px;
+    width: 80%;
+}
+.dadosCard2{
+    padding: 30px;
+    margin:10px;
+    background: white;
+    border-radius: 10px;
+    height: 150px;
+    position: relative;
+    width: 80%;
+
+    
+    
+}
+.dadosCard2 aside{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f0a818;
+}
+.dadosCard2 aside .valueCard{
+  
+    color: #181848;
+    font-size: 70px;
+    padding-top: 10px;
+    }
+
+.simuladorButton{
+   background:#7890a8;
+   color: white;
+   font-size: 18px;
+   font-weight: bold;
+   margin: 10px;
+   padding: 10px;
+   text-align: center;
+   border-radius: 10px;
+   width: 40%;
+  
+  
+}
+.simuladorButton:hover{
+    background: #181848;
+}
+.descritionValue{
+    font-weight:bold;
+    color: #181848;
+}
+.inputValue{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -.02em;
+    line-height: 30px;
+    padding: 0 7px 7px;
+    position: relative;
+    width: 90%;
+    
+}
+
+.inputValue::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+.inputValue:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.tipoVenda, .prazoRec{
+    font-weight:bold;
+    color: #181848;
+    padding-top: 20px;
+}
+.tipoVenda-1, .prazoRec-1{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -.02em;
+    line-height: 30px;
+    padding: 0 7px 7px;
+    position: relative;
+    width: 90%;
+}
+.tipoVenda-1:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    background: #7890a8; 
+    
+}
+.prazoRec-1:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    background: #7890a8; 
+    
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:20px;
+}
+
+.quemSomos{
+    font-size: 50px;
+    color: #181848;
+    padding-bottom: 20px;
+}
+.diferenciais{
+    font-size: 30px;
+    color: #181848;
+    padding:20px 0;
+}
+.imageBottom{
+    width: 500px;
+    background-position: center;
+    
+}
+.textArticle{
+    font-size: 18px;
+
+}
+footer{
+    background: #7890a8;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    
+
+}
+
+@media(max-width: 870px){
+
+    .dadosCard2 aside .valueCard{
+  
+        color: #181848;
+        font-size: 40px;
+        padding-top: 10px;
+        }
+        .dadosCard2{
+            padding: 30px;
+            margin:10px;
+            background: white;
+            border-radius: 10px;
+            height: 100px;
+            position: relative;
+            width: 80%;
+        }
+
+        .imageBottom{
+            width: 400px;
+        }
+}
+@media(max-width: 670px){
+
+    article{
+        display: block;
+        margin:20px;
+    }
+    .containerCard{
+        display: flex;
+        margin: auto;
+    }
+    
+    .dadosCard2 aside .valueCard{
+  
+        color: #181848;
+        font-size: 40px;
+        padding-top: 10px;
+        }
+        .dadosCard2{
+            padding: 30px;
+            margin:10px;
+            background: white;
+            border-radius: 10px;
+            height: 100px;
+            position: relative;
+            width: 80%;
+        }
+
+        .imageBottom{
+            width: 300px;
+        }
+}
+@media(max-width: 571px){
+
+    article{
+        display: block;
+        margin:20px;
+    }
+    .containerCard{
+        display: block;
+        margin: auto;
+    }
+    
+    .dadosCard2 aside .valueCard{
+  
+        color: #181848;
+        font-size: 40px;
+        padding-top: 10px;
+        }
+        .dadosCard2{
+            padding: 30px;
+            margin:10px;
+            background: white;
+            border-radius: 10px;
+            height: 100px;
+            position: relative;
+            width: 80%;
+        }
+
+        .imageBottom{
+            width: 300px;
+        }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de juros maquineta</title>
+    <link rel="shortcut icon" href="imagens/maquinetafavicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<header class="topPage">
+<h1 class="topTitle">Fees</h1>
+<p class="topSubtitle">A simulação que precisas em suas mãos!</p>
+</header>
+<body>
+<main>
+    <section class="sectionCard">
+        <h2 class="titleCard">Simulador de Juros - Maquineta</h2>
+            <p class="textCard">Faça a simulação de quanto em dinheiro irás receber!</p>
+        <section class="containerCard">
+        <div class="dadosCard">
+            <label class="descritionValue" for="">Valor da venda
+            </label>  
+            <input class="inputValue" name="simular" id="valorAdic" type="text" placeholder="R$ 00,00">
+            <br>
+            <label class="tipoVenda" for="">Tipo de Venda</label>
+            <select class="tipoVenda-1" name="typeSale" id="typeSale">
+                <option value="debt">Débito</option>
+                <option value="credit" >Crédito</option>
+            </select> <br>
+            <label class="prazoRec" for="">Prazo para receber</label>
+            <select class="prazoRec-1" name="prazoRecebimento" id="prazoRecebimento">
+                <option value="">1 dia útil</option>
+                <option value="">30 dias úteis</option>
+            </select>
+            <label class="descritionValue" for="">Quantidade de Parcelas
+            </label>  
+            <input class="inputValue" name="simular" id="jurosPorParcela" type="text" placeholder="Digite a  quantidade de parcelas">
+            <button class="simuladorButton" name="simular" onclick="simular()">Simular</button>
+        </div>
+        <div class="dadosCard2">
+            <aside>
+                <p>Aqui você recebe</p>
+                <p class="valueCard">
+                    <span id="textItem">R$ 0000,00</span>
+                </p>
+                <p> <span id="textItem2">Taxas</span></p>
+            </aside>
+        </div>
+        </section>
+    </section>
+
+<article>
+    <img class="imageBottom" src="imagens/business-accounting.svg" alt="">
+
+    <div>
+        <h1 class="quemSomos">Quem Somos</h1>
+        <p class="textArticle">
+            A Fees Assessoria é uma empresa focada em Simulação de Juros de Maquinetas, com especialistas na área.Temos uma ampla carteira de parceiros para que cada Plano de Revisão de Juros seja construída de acordo com cada contrato de maquinetas.
+        </p>
+        <h2 class="diferenciais">Diferencias da FEES</h2>
+        <p class="textArticle">
+            1- Cada simulação de juros realizada por nossa equipe é feita com total empenho e dedicação, sem que nenhuma cláusula ou detalhe passe despercebido, sendo avaliado e acompanhado por nossa equipe jurídica.
+            Dessa forma os direitos do cliente são colocados em primeiro lugar, para que eles não fiquem à mercê de abusos e irregularidades. <br>
+            2- Agilidade no tratamento do processo, desde sua entrada até sua finalização e problema resolvido. <br>
+            3- Equipe de consultores qualificada e cuidadosamente treinada para dar total suporte e segurança no ato da contratação dos nossos serviços. <br>
+            4- Empresa consolidada a mais de 4 anos.</p>
+            
+    </div>
+
+</article>
+</main>
+<footer>
+Fees-Simulações Finaceiras
+</footer>
+<script src="scripit.js"></script>  
+</body>
+</html>
